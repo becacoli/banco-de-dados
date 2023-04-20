@@ -4,6 +4,20 @@ Como objetivo da atividade, utilizei JDBC para implementar um programa principal
 
 ## Passo a passo
 
+Lembre-se que você deve alterar os valores, de acordo com a configuração do seu ambiente.
+
+        
+        String user = "root";
+        String passwd = "";
+        String url = "jdbc:mysql://localhost:3306/locadora";
+        
+        String driveUrl = "com.mysql.jdbc.Driver";
+        
+        
+A string url contendo a URL de conexão com o banco de dados MySQL. A URL possui a seguinte estrutura: "jdbc:mysql://<host>:<port>/<database>". Neste exemplo, o host é "localhost", a porta é "3306" e o nome do banco de dados é "mydb".
+As strings user e passwd armazenam as credenciais de autenticação do usuário utilizado para acessar o banco de dados.
+E a string driveUrl especifica o nome da classe do driver JDBC para o MySQL que será utilizado para fazer a conexão com o banco de dados.
+
 1. Para realizar a conexão com o banco de dados usando Java, criei um projeto Maven e instalei a dependência no file nomeado como "pom.xml":
 
 ``` 
