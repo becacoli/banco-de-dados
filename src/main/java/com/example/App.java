@@ -6,7 +6,7 @@ public class App
     public static void main( String[] args )
     {
         String user = "root";
-        String passwd = "6554";
+        String passwd = "";
         
         String url = "jdbc:mysql://localhost:3306/locadora";
         String driveUrl = "com.mysql.jdbc.Driver";
